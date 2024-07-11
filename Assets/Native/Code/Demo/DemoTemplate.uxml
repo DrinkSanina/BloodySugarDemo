@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Native/Code/Demo/demo.uss?fileID=7433441132597879392&amp;guid=f943d3689a721b14ab1a45ae6da4dbfa&amp;type=3#demo" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1;">
+        <ui:VisualElement name="UI" style="flex-grow: 1; margin-top: 15px; margin-right: 15px; margin-bottom: 15px; margin-left: 15px;">
+            <ui:VisualElement name="top" style="flex-grow: 1; height: 1546px; -unity-text-align: upper-left;" />
+            <ui:VisualElement name="Other" style="flex-grow: 1; height: 708px; justify-content: space-between; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(255, 255, 255); -unity-font-style: bold; margin-top: 0; margin-right: 6px; margin-bottom: 0; margin-left: 6px; white-space: normal; flex-direction: row; -unity-text-align: upper-left;">
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="statsLabel" style="width: 458px; padding-right: 163px; -unity-text-align: lower-left; font-size: 24px;" />
+                <ui:VisualElement style="flex-grow: 1; width: 266px; height: 193px;" />
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="effectsLabel" style="width: 609px; font-size: 24px; color: rgb(255, 240, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="health" style="flex-grow: 1; align-items: flex-start; justify-content: flex-start; flex-direction: row; -unity-text-align: upper-left; height: 173px;">
+                <ui:ProgressBar value="86.4" name="healthbar" title="HP" style="width: 472px; -unity-font-style: bold; color: rgb(255, 255, 255); font-size: 30px; height: 40px; transform-origin: center; justify-content: flex-start; align-items: stretch; align-self: flex-start; flex-grow: 0; flex-direction: column;" />
+                <ui:Label tabindex="-1" text="MHP" parse-escape-sequences="true" display-tooltip-when-elided="true" name="maxHP" style="justify-content: flex-start; align-items: stretch; height: 39px; width: 89px; -unity-text-align: middle-center; font-size: 30px; color: rgb(255, 0, 112); -unity-font-style: bold;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
